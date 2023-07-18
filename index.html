@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url('back.jpg');
+            color: white;
+            background-size: cover;
+            /* background-repeat: no-repeat; */
+            font-family: 'Changa One', cursive;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left for logo -->
+            <img src="logo.png" alt="logo" />
+            <div>Muscle Factory</div>
+        </div>
+        <div class="mid">
+            <!-- mid for nav -->
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- right for buttons -->
+            <a href="tel:8081394281"><button class="btn">Call Us</button></a>
+            <a href="mailto:abcd@gmail.com"><button class="btn">Email</button></a>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of your area</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter you name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter you age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter you gender">
+            </div>
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter you phone number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter you email">
+            </div>
+            <div class="bts"><input type="submit" value="Submit" id="sb" class="btn bt">
+                <input type="reset" value="Reset" class="btn bt" id="rst">
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>
